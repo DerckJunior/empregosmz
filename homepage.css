@@ -1,0 +1,51 @@
+@import 'global.css';
+
+body{
+    
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.column{
+
+    height: 100%;
+    
+}
+
+#emCima{
+
+    height: 5vh;
+    background-color: #232f3d;
+
+}
+
+
+#emCima > h1{
+
+    font-size: 4vh;
+    color: white;
+}
+
+
+div#ecra{
+    padding: 30px;
+    color: white;
+    
+    background-color: #0e1621;
+    height: 100%;
+    
+    overflow-y: scroll;
+}
+
+div#ecra > .title{
+    
+
+}
+
+.emBaixo{
+
+    height: 5vh;
+    background-color: #232f3d;
+
+}
