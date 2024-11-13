@@ -1,0 +1,151 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Container para limitar a largura do conteúdo */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+/* Estilos do cabeçalho */
+header {
+    background-color: #0073e6;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+header nav ul li a:hover {
+    background-color: #005bb5;
+}
+
+.recrutador a{
+    color: orange;
+}
+.recrutador:hover{
+    background-color: orangered;
+}
+/* Estilos da seção principal */
+.hero {
+    background-color: #0073e6;
+    color: white;
+    text-align: center;
+    padding: 4rem 0;
+    margin-bottom: 2rem;
+}
+
+.hero h2 {
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.search-bar input,
+.search-bar button {
+    padding: 0.8rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.search-bar input {
+    flex: 1;
+    min-width: 200px;
+}
+
+.search-bar button {
+    background-color: #2ecc71;
+    color: white;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #27ae60;
+}
+
+/* Estilos da seção de listagem de vagas */
+#job-listings {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+.job {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    transition: background-color 0.3s;
+}
+
+.job:hover {
+    background-color: #f9f9f9;
+}
+
+.job h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.job p {
+    margin: 5px 0;
+    color: #666;
+}
+
+button {
+    background-color: #0073e6;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #005bb5;
+}
+
+/* Estilos do rodapé */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #0073e6;
+    color: #fff;
+    margin-top: 2rem;
+}
